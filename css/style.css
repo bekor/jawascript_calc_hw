@@ -1,0 +1,112 @@
+body {
+  font-family: sans-serif;
+  height: 100%;
+  margin: 0;
+  width: 100%;
+}
+
+.calculator-body {
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    width: 300px;
+    height: 500px;
+    background-color: #272525;
+    border-radius: 2%;
+    border-bottom-left-radius: 8%;
+    border-bottom-right-radius: 8%;
+    box-shadow: inset 5px 5px 5px #888888, 5px 5px 5px #888888;
+}
+
+.calculator-brand{
+    text-align: left;
+    padding-top: 4%;
+    margin-bottom: 2%;
+    margin-left: 13%;
+    margin-right: 10%;
+    color: white;
+}
+
+.calculator-buttons{
+    width: 90%;
+    height: 75%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.result-border {
+    display: inline-block;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    padding: 3%;
+    width: 70%;
+    height: 16%;
+    background-color: #808080;
+    box-shadow: inset 5px 5px 5px #888888;
+}
+
+.result-screen {
+    overflow: hidden;
+    display: inline-block;
+    margin: 3%;
+    padding: 2%;
+    width: 90%;
+    height: 80%;
+    background-color: lightgray;
+    box-shadow: inset 5px 5px 5px #888888;
+}
+
+.result{
+    margin: 1px;
+    word-wrap: break-word;
+}
+
+.calculator-buttons-row{
+    display: inline-block;
+    margin-top: 10px;
+    width: 90%;
+    height: 15%;
+}
+
+.calculator-buttons-row button{
+    background-color: black;
+    color: white;
+    border-radius: 50%;
+    box-shadow: inset 0px 0px 5px #888888;
+}
+
+.calculator-buttons-row button:hover{
+    opacity: 0.8;
+}
+
+.calc-button {
+    background-color: brown;
+    display: inline-block;
+    width: 20%;
+    height: 80%;
+}
+
+.number-button {
+    display: inline-block;
+    width: 20%;
+    height: 80%;
+}
+
+.clear-button {
+    background-color: brown !important;
+    display: inline-block;
+    width: 20%;
+    height: 80%;
+}
+
+.equal-button {
+    background-color: #ffc500 !important;
+    color: black !important;
+    display: inline-block;
+    font-size: 130%;
+    width: 80%;
+    height: 80%;
+}

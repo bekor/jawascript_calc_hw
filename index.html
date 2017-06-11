@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Bekor JS calculator</title>
+	<meta charset="utf-8"/>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+    <div class="calculator-body">
+		<p class="calculator-brand">beKor</p>
+		<div class="result-border" ondrop="dropcopy(event)" ondragover="allowDrop(event)">
+			<span class="result-screen">
+				<p class="result"></p>
+			</span>
+		</div>
+        <div class="calculator-buttons">
+            <span class="calculator-buttons-row">
+                <button class="number-button" type="button" draggable="true" ondragstart="drag(event)" id="drag7">7</button>
+                <button class="number-button" type="button" draggable="true" ondragstart="drag(event)" id="drag8">8</button>
+                <button class="number-button" type="button" draggable="true" ondragstart="drag(event)" id="drag9">9</button>
+                <button class="calc-button" type="button" draggable="true" ondragstart="drag(event)" id="dragdiv">/</button>
+            </span>
+            <span class="calculator-buttons-row">
+                <button class="number-button" type="button" draggable="true" ondragstart="drag(event)" id="drag4">4</button>
+                <button class="number-button" type="button" draggable="true" ondragstart="drag(event)" id="drag5">5</button>
+                <button class="number-button" type="button" draggable="true" ondragstart="drag(event)" id="drag6">6</button>
+                <button class="calc-button" type="button" draggable="true" ondragstart="drag(event)" id="dragmult">*</button>
+            </span>
+            <span class="calculator-buttons-row">
+                <button class="number-button" type="button" draggable="true" ondragstart="drag(event)" id="drag1">1</button>
+                <button class="number-button" type="button" draggable="true" ondragstart="drag(event)" id="drag2">2</button>
+                <button class="number-button" type="button" draggable="true" ondragstart="drag(event)" id="drag3">3</button>
+                <button class="calc-button" type="button" draggable="true" ondragstart="drag(event)" id="dragsub">-</button>
+            </span>
+            <span class="calculator-buttons-row">
+                <button class="clear-button" type="button">C</button>
+                <button class="number-button" type="button" draggable="true" ondragstart="drag(event)" id="drag0">0</button>
+                <button class="calc-button" type="button" draggable="true" ondragstart="drag(event)" id="dragdot">.</button>
+                <button class="calc-button" type="button" draggable="true" ondragstart="drag(event)" id="dragsum">+</button>
+            </span>
+            <span class="calculator-buttons-row">
+                <button class="equal-button" type="button">=</button>
+            </span>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.1.0.min.js"></script>
+	<script src="js/main1.js"></script>
+    <script src="js/drag_and_drop.js"></script>
+</body>
+</html>
